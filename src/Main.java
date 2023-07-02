@@ -8,10 +8,10 @@ public class Main {
         int bonus = balancePut / 100;
         int bonusBalance = balance + balancePut + bonus;
         int normalBalance = balance + balancePut;
-            if (balancePut > 1000) {
-                System.out.println("Ваш баланс:" + bonusBalance);
-            } else {
-                System.out.println("Ваш баланс:" + normalBalance);
-            }
+        if (balancePut > 1000) {
+            System.out.println("Ваш баланс:" + bonusBalance);
+        } else {
+            System.out.println("Ваш баланс:" + normalBalance);
         }
     }
+}
